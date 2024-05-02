@@ -1,0 +1,26 @@
+# Ignorar archivos de configuración del proyecto
+*.iml
+*.lock
+*.log
+
+# Ignorar archivos de dependencias externas
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.packages
+
+# Ignorar archivos de compilación y ejecución de Flutter
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.packages
+
+# Ignorar archivos de scripts
+*.g.dart
+*.class
+*.jar
+*.obj
+*.pyc
+
+# Ignorar archivos de respaldo y temporales
+*~
+.DS_Store
+Thumbs.db
