@@ -1,42 +1,103 @@
-# Miscellaneous
-*.class
-*.log
+# Flutter/Dart-specific
+**/build/
+**/.dart_tool/
+**/.idea/
+**/.vscode/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.metadata
+
+# Android-specific
+**/android/.gradle/
+**/android/captures/
+**/android/.idea/
+**/android/local.properties
+**/android/.settings/
+
+# iOS-specific
+**/ios/Flutter/.generated/
+**/ios/.generated/
+**/ios/.build/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flr
+**/ios/.idea/
+**/ios/.git/
+**/ios/.vscode/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/xcuserdata/
+**/ios/.symlinks/
+
+# Windows-specific
+**/windows/.vs/
+**/windows/build/
+**/windows/.dart_tool/
+
+# macOS-specific
+**/macos/Flutter/ephemeral/
+**/macos/.dart_tool/
+**/macos/.flutter-plugins
+**/macos/.flutter-plugins-dependencies
+**/macos/.packages
+**/macos/build/
+
+# Linux-specific
+**/linux/.dart_tool/
+**/linux/.flutter-plugins
+**/linux/.flutter-plugins-dependencies
+**/linux/.packages
+**/linux/build/
+
+# Web-specific
+**/web/.dart_tool/
+**/web/.flutter-plugins
+**/web/.flutter-plugins-dependencies
+**/web/.packages
+**/web/build/
+
+# Exclude IntelliJ IDE files
+**/.idea/
+**/.idea_modules/
+**/flutter_iml/
+**/*.iml
+
+# Generated files
+**/*.log
+**/*.tmp
+**/*.temp
+**/*.swp
+**/*.swo
+**/*.bak
+
+# Dependency directories
+**/build/
+**/.gradle/
+**/.dart_tool/
+**/packages/
+**/Podfile.lock
+**/Pods/
+**/.symlinks/
+**/flutter/.pub-cache/
+**/bin/cache/
+
+# Other files
+*.lock
 *.pyc
+*.pyo
+*.class
 *.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
+*.DS_Store
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# Ensure you keep the following:
+!**/lib/
+!**/pubspec.yaml
+!**/pubspec.lock
+!**/analysis_options.yaml
+!**/test/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
 
 # Android Studio will place build artifacts here
 /android/app/debug
